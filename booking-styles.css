@@ -1,0 +1,70 @@
+body {
+    background: url(joel-muniz-KodMXENNaas-unsplash.jpg);
+    background-position: center;
+    background-size: cover;
+ }
+ 
+ .container {
+     background-color: aliceblue;
+     margin:160px;
+     display:flex;
+     grid-template-columns: 40% 60%;
+     background: transparent;
+ }
+ 
+
+ 
+ .heading {
+     font-size: 40px;
+     text-transform: uppercase;
+ }
+ 
+
+ 
+ .container-form {
+     padding: 20px 50px;
+     margin: 0 auto;
+     color: burlywood;
+     font-size: 20px;
+ }
+ 
+ form {
+     display: grid;
+     grid-row-gap: 20px;
+ }
+ form p {
+      font-weight: 1000;  
+ }
+ .form-field {
+     display: flex;
+     justify-content: space-between;
+ }
+ 
+ input,select {
+     pad: 10px 15px;
+ }
+ 
+ .button {
+     background: transparent;
+     color: white;
+     padding: 10px 100px;
+     border: none;
+     font-size: 40px;
+     border-radius: 10px;
+     -webkit-border-radius: 100px;
+     -moz-border-radius: 100px;
+     -o-border-radius: 100px;
+     box-shadow: none;
+     cursor: pointer;
+     transition: all .2s;
+ }
+ 
+
+ .button:hover {
+     transform: scale(1.02);
+     -webkit-transform: scale(1.02);
+     -moz-transform: scale(1.02);
+     -ms-transform: scale(1.02);
+     -o-transform: scale(1.02);
+     box-shadow: 10px 12px 15px black;
+ }
